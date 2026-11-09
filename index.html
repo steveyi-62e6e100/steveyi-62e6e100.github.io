@@ -1,0 +1,1987 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>秘密研究所在线观看免费 - 悬疑科幻剧集聚合</title>
+  <meta name="description" content="秘密研究所在线观看免费聚合页，提供剧集分集剧情、角色档案、幕后花絮、同类悬疑科幻作品推荐及观看顺序指南，适合喜欢密室解谜与科幻悬疑的观众。">
+  <meta name="keywords" content="悬疑科幻剧, 密室解谜, 分集剧情, 角色档案, 同类作品推荐">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f172a'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%2338bdf8' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='2' fill='%2338bdf8'/%3E%3C/svg%3E">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg: #0b1120;
+      --surface: #111c2e;
+      --surface-alt: #1a2a41;
+      --border: #253b55;
+      --text: #e2e8f0;
+      --text-secondary: #94a3b8;
+      --accent: #38bdf8;
+      --accent-dim: #0ea5e9;
+      --amber: #fbbf24;
+      --rose: #fb7185;
+      --emerald: #34d399;
+      --radius: 12px;
+      --shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+      --header-height: 60px;
+      --announce-height: 40px;
+      --sticky-offset: calc(var(--header-height) + var(--announce-height) + 12px);
+      --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: var(--sticky-offset);
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* 吸顶公告条 */
+    .announcement-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: linear-gradient(90deg, #0c4a6e, #1e3a5f);
+      color: #bae6fd;
+      font-size: 0.875rem;
+      height: var(--announce-height);
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #1e4a6b;
+    }
+
+    .announcement-bar .container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .announcement-bar .container::-webkit-scrollbar {
+      display: none;
+    }
+
+    .announcement-tag {
+      background: var(--accent);
+      color: #0b1120;
+      font-weight: 700;
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: 100px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* 吸顶页头 */
+    .site-header {
+      position: sticky;
+      top: var(--announce-height);
+      z-index: 90;
+      background: rgba(11, 17, 32, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      height: var(--header-height);
+      display: flex;
+      align-items: center;
+    }
+
+    .site-header .container {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      width: 100%;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    .brand svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .brand-text {
+      font-weight: 800;
+      font-size: 1.1rem;
+      color: var(--text);
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+
+    .brand-text span {
+      color: var(--accent);
+    }
+
+    .header-nav {
+      display: flex;
+      gap: 4px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      flex: 1;
+    }
+
+    .header-nav::-webkit-scrollbar {
+      display: none;
+    }
+
+    .header-nav a {
+      color: var(--text-secondary);
+      font-size: 0.875rem;
+      padding: 6px 12px;
+      border-radius: 6px;
+      white-space: nowrap;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .header-nav a:hover {
+      background: var(--surface-alt);
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .header-search {
+      display: flex;
+      align-items: center;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 0 4px 0 14px;
+      flex-shrink: 0;
+      transition: border-color 0.2s;
+    }
+
+    .header-search:focus-within {
+      border-color: var(--accent);
+    }
+
+    .header-search input {
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--text);
+      font-size: 0.85rem;
+      width: 150px;
+      padding: 6px 0;
+    }
+
+    .header-search input::placeholder {
+      color: var(--text-secondary);
+    }
+
+    .header-search button {
+      background: var(--accent);
+      border: none;
+      border-radius: 100px;
+      padding: 4px 12px;
+      color: #0b1120;
+      font-weight: 600;
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .header-search button:hover {
+      background: var(--accent-dim);
+    }
+
+    /* 主题首屏 */
+    .hero {
+      position: relative;
+      padding: 60px 0 50px;
+      overflow: hidden;
+      background: radial-gradient(ellipse at 30% 20%, rgba(14, 165, 233, 0.12), transparent 60%),
+                  radial-gradient(ellipse at 80% 80%, rgba(251, 113, 133, 0.08), transparent 50%);
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: 
+        linear-gradient(rgba(56, 189, 248, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(56, 189, 248, 0.04) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+      mask-image: radial-gradient(ellipse at 50% 50%, black 30%, transparent 70%);
+    }
+
+    .hero .container {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .hero-content h1 {
+      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+      font-weight: 800;
+      line-height: 1.2;
+      letter-spacing: -0.5px;
+      margin-bottom: 16px;
+    }
+
+    .hero-content h1 em {
+      font-style: normal;
+      color: var(--accent);
+    }
+
+    .hero-desc {
+      color: var(--text-secondary);
+      font-size: 1rem;
+      max-width: 560px;
+      margin-bottom: 28px;
+      line-height: 1.7;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #0b1120;
+      font-weight: 700;
+      padding: 10px 24px;
+      border-radius: 100px;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-dim);
+      text-decoration: none;
+      transform: translateY(-1px);
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-weight: 600;
+      padding: 10px 24px;
+      border-radius: 100px;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .btn-outline:hover {
+      border-color: var(--accent);
+      background: rgba(56, 189, 248, 0.06);
+      text-decoration: none;
+    }
+
+    .hero-visual {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-visual svg {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      filter: drop-shadow(0 8px 30px rgba(56, 189, 248, 0.15));
+    }
+
+    /* 主内容区 - 单栏纵向流 */
+    .main-content {
+      padding: 20px 0 60px;
+    }
+
+    .content-section {
+      margin-bottom: 56px;
+    }
+
+    .content-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .section-header h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-header h2::before {
+      content: '';
+      width: 4px;
+      height: 22px;
+      background: var(--accent);
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    .section-link {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      white-space: nowrap;
+    }
+
+    .section-link:hover {
+      color: var(--accent);
+    }
+
+    /* 概览段落 */
+    .overview-text {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.8;
+      max-width: 900px;
+    }
+
+    .overview-text p {
+      margin-bottom: 12px;
+    }
+
+    .overview-text p:last-child {
+      margin-bottom: 0;
+    }
+
+    .overview-text strong {
+      color: var(--text);
+    }
+
+    /* 精选卡片网格 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: var(--accent);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      object-fit: cover;
+      display: block;
+      background: var(--surface-alt);
+    }
+
+    .card-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+
+    .tag {
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: 100px;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+    }
+
+    .tag-type {
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--accent);
+    }
+
+    .tag-genre {
+      background: rgba(251, 191, 36, 0.15);
+      color: var(--amber);
+    }
+
+    .tag-mood {
+      background: rgba(52, 211, 153, 0.15);
+      color: var(--emerald);
+    }
+
+    .tag-rose {
+      background: rgba(251, 113, 133, 0.15);
+      color: var(--rose);
+    }
+
+    .card-title {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+      line-height: 1.4;
+      color: var(--text);
+    }
+
+    .card-title a {
+      color: inherit;
+    }
+
+    .card-title a:hover {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .card-desc {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      flex: 1;
+      margin-bottom: 12px;
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      flex-wrap: wrap;
+    }
+
+    .meta-hot {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .meta-hot svg {
+      width: 14px;
+      height: 14px;
+      fill: var(--rose);
+    }
+
+    .meta-score {
+      color: var(--amber);
+      font-weight: 700;
+    }
+
+    /* 更新列表 */
+    .update-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .update-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .update-item:last-child {
+      border-bottom: none;
+    }
+
+    .update-time {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      white-space: nowrap;
+      min-width: 72px;
+      padding-top: 2px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .update-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .update-title {
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 2px;
+    }
+
+    .update-title a {
+      color: var(--text);
+    }
+
+    .update-title a:hover {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .update-desc {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+    }
+
+    .update-badge {
+      font-size: 0.65rem;
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .badge-new {
+      background: rgba(52, 211, 153, 0.15);
+      color: var(--emerald);
+      border: 1px solid rgba(52, 211, 153, 0.3);
+    }
+
+    .badge-hot {
+      background: rgba(251, 113, 133, 0.15);
+      color: var(--rose);
+      border: 1px solid rgba(251, 113, 133, 0.3);
+    }
+
+    /* 分类入口 */
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 12px;
+    }
+
+    .category-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 12px;
+      text-align: center;
+      transition: border-color 0.2s, background 0.2s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .category-item:hover {
+      border-color: var(--accent);
+      background: var(--surface-alt);
+      text-decoration: none;
+    }
+
+    .category-icon {
+      font-size: 1.5rem;
+      line-height: 1;
+    }
+
+    .category-name {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .category-count {
+      font-size: 0.7rem;
+      color: var(--text-secondary);
+    }
+
+    /* 深度解析 */
+    .deep-dive {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px;
+    }
+
+    .deep-dive h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      margin-top: 28px;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .deep-dive h3:first-of-type {
+      margin-top: 0;
+    }
+
+    .deep-dive h3::before {
+      content: '//';
+      color: var(--border);
+      font-weight: 400;
+    }
+
+    .deep-dive p {
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+      line-height: 1.8;
+      margin-bottom: 14px;
+    }
+
+    .deep-dive ul {
+      list-style: none;
+      margin: 12px 0 18px;
+      padding: 0;
+    }
+
+    .deep-dive li {
+      position: relative;
+      padding-left: 20px;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 8px;
+    }
+
+    .deep-dive li::before {
+      content: '▸';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .deep-dive strong {
+      color: var(--text);
+    }
+
+    /* 体验指南步骤 */
+    .guide-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .guide-step {
+      display: flex;
+      gap: 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      align-items: flex-start;
+    }
+
+    .step-num {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(56, 189, 248, 0.12);
+      color: var(--accent);
+      font-weight: 800;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      border: 1px solid rgba(56, 189, 248, 0.25);
+    }
+
+    .step-content h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .step-content p {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* FAQ */
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .faq-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+
+    .faq-item[open] {
+      border-color: var(--accent);
+    }
+
+    .faq-item summary {
+      padding: 16px 20px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      color: var(--text);
+      transition: background 0.2s;
+    }
+
+    .faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq-item summary::after {
+      content: '+';
+      font-size: 1.2rem;
+      color: var(--accent);
+      font-weight: 400;
+      flex-shrink: 0;
+      transition: transform 0.2s;
+    }
+
+    .faq-item[open] summary::after {
+      content: '−';
+      transform: rotate(180deg);
+    }
+
+    .faq-item summary:hover {
+      background: var(--surface-alt);
+    }
+
+    .faq-answer {
+      padding: 0 20px 16px;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+    }
+
+    /* 用户评论 */
+    .comment-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 14px;
+    }
+
+    .comment-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .comment-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .comment-avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--surface-alt);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--accent);
+      flex-shrink: 0;
+      border: 1px solid var(--border);
+    }
+
+    .comment-user {
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .comment-text {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    .comment-target {
+      font-size: 0.72rem;
+      color: var(--accent);
+      opacity: 0.8;
+    }
+
+    /* 相关资讯 */
+    .news-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .news-item {
+      display: flex;
+      gap: 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      transition: border-color 0.2s;
+      align-items: flex-start;
+    }
+
+    .news-item:hover {
+      border-color: var(--accent);
+    }
+
+    .news-thumb {
+      width: 100px;
+      height: 70px;
+      border-radius: 8px;
+      object-fit: cover;
+      flex-shrink: 0;
+      background: var(--surface-alt);
+    }
+
+    .news-body {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .news-date {
+      font-size: 0.7rem;
+      color: var(--text-secondary);
+      margin-bottom: 4px;
+    }
+
+    .news-title {
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 4px;
+    }
+
+    .news-title a {
+      color: var(--text);
+    }
+
+    .news-title a:hover {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .news-summary {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+
+    /* 相关推荐 */
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+    }
+
+    .related-tag {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 8px 16px;
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      text-align: center;
+      transition: border-color 0.2s, background 0.2s, color 0.2s;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .related-tag:hover {
+      border-color: var(--accent);
+      background: var(--surface-alt);
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* 热门榜单 */
+    .rank-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .rank-item {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .rank-item:last-child {
+      border-bottom: none;
+    }
+
+    .rank-num {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--text-secondary);
+      min-width: 28px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .rank-num.top1 {
+      color: var(--amber);
+    }
+
+    .rank-num.top2 {
+      color: #cbd5e1;
+    }
+
+    .rank-num.top3 {
+      color: #d97706;
+    }
+
+    .rank-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .rank-title {
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .rank-title a {
+      color: var(--text);
+    }
+
+    .rank-title a:hover {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .rank-meta {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+    }
+
+    .rank-score {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--amber);
+      flex-shrink: 0;
+    }
+
+    /* 页尾 */
+    .site-footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 40px 0 24px;
+      margin-top: 20px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      gap: 32px;
+      margin-bottom: 32px;
+    }
+
+    .footer-brand .brand-text {
+      font-size: 1rem;
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .footer-tagline {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      max-width: 260px;
+    }
+
+    .footer-col h4 {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .footer-col a {
+      color: var(--text-secondary);
+      font-size: 0.82rem;
+      transition: color 0.2s;
+    }
+
+    .footer-col a:hover {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 8px;
+      font-size: 0.72rem;
+      color: var(--text-secondary);
+    }
+
+    /* 搜索无结果提示 */
+    .search-empty {
+      display: none;
+      padding: 40px 20px;
+      text-align: center;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+
+    .search-empty.show {
+      display: block;
+    }
+
+    /* 隐藏卡片 */
+    .card.hidden {
+      display: none;
+    }
+
+    /* 响应式 */
+    @media (max-width: 1024px) {
+      .hero .container {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+
+      .hero-visual {
+        order: -1;
+      }
+
+      .hero-visual svg {
+        max-width: 300px;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 740px) {
+      .site-header .container {
+        gap: 12px;
+      }
+
+      .brand-text {
+        font-size: 0.95rem;
+      }
+
+      .header-nav {
+        gap: 0;
+      }
+
+      .header-nav a {
+        font-size: 0.8rem;
+        padding: 4px 8px;
+      }
+
+      .header-search {
+        display: none;
+      }
+
+      .hero {
+        padding: 40px 0 32px;
+      }
+
+      .hero-content h1 {
+        font-size: 1.6rem;
+      }
+
+      .hero-desc {
+        font-size: 0.9rem;
+      }
+
+      .section-header h2 {
+        font-size: 1.2rem;
+      }
+
+      .deep-dive {
+        padding: 20px;
+      }
+
+      .card-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .comment-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .related-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      }
+
+      .news-item {
+        flex-direction: column;
+      }
+
+      .news-thumb {
+        width: 100%;
+        height: 120px;
+      }
+
+      .category-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .update-item {
+        flex-wrap: wrap;
+        gap: 4px;
+      }
+
+      .update-time {
+        min-width: auto;
+        width: 100%;
+      }
+    }
+  </style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+  <!-- 吸顶公告条 -->
+  <div class="announcement-bar" id="announcement">
+    <div class="container">
+      <span class="announcement-tag">更新</span>
+      <span>11 月 8 日新增《秘密研究所》第二季第 4 集解析与 3 条幕后花絮 · 本周热度榜已刷新</span>
+    </div>
+  </div>
+
+  <!-- 吸顶页头 -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <a href="/#hero" class="brand" aria-label="秘密研究所在线观看免费 首页">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="#0f172a"/>
+          <circle cx="16" cy="16" r="8" stroke="#38bdf8" stroke-width="2"/>
+          <circle cx="16" cy="16" r="3" fill="#38bdf8"/>
+          <path d="M16 8v3M16 21v3M8 16h3M21 16h3" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-text">秘密研究所<span>在线观看免费</span></span>
+      </a>
+      <nav class="header-nav" aria-label="主题导航">
+        <a href="/#overview">剧集概览</a>
+        <a href="/#featured">精选推荐</a>
+        <a href="/#updates">最新更新</a>
+        <a href="/#categories">分类入口</a>
+        <a href="/#deep-dive">深度解析</a>
+        <a href="/#guide">观看指南</a>
+        <a href="/#faq">常见问题</a>
+        <a href="/#comments">用户评论</a>
+        <a href="/#news">相关资讯</a>
+        <a href="/#ranking">热门榜单</a>
+      </nav>
+      <div class="header-search" role="search">
+        <input type="search" id="searchInput" placeholder="搜索条目/类型…" aria-label="搜索条目或类型">
+        <button type="button" id="searchBtn" aria-label="搜索">搜索</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 主题首屏 -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>秘密研究所在线观看免费</h1>
+        <p class="hero-desc">聚合悬疑科幻剧《秘密研究所》的分集剧情、角色档案、幕后花絮、同类作品推荐与观看顺序指南，适合喜欢密室解谜与科幻悬疑的观众快速查找可看内容。</p>
+        <div class="hero-actions">
+          <a href="/#featured" class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 2l10 6-10 6V2z" fill="currentColor"/></svg>
+            查看精选条目
+          </a>
+          <a href="/#guide" class="btn-outline">观看顺序指南</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 400 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+              <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.02"/>
+            </linearGradient>
+            <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#fb7185" stop-opacity="0.2"/>
+              <stop offset="100%" stop-color="#fb7185" stop-opacity="0.02"/>
+            </linearGradient>
+          </defs>
+          <rect x="40" y="40" width="320" height="260" rx="16" fill="url(#g1)" stroke="#1e3a5f" stroke-width="1"/>
+          <rect x="60" y="60" width="120" height="80" rx="8" fill="#111c2e" stroke="#253b55" stroke-width="1"/>
+          <rect x="200" y="60" width="140" height="8" rx="4" fill="#253b55"/>
+          <rect x="200" y="80" width="100" height="8" rx="4" fill="#1e3a5f"/>
+          <rect x="200" y="100" width="120" height="8" rx="4" fill="#1e3a5f"/>
+          <rect x="60" y="160" width="280" height="1" fill="#1e3a5f"/>
+          <circle cx="100" cy="210" r="24" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.6"/>
+          <circle cx="100" cy="210" r="10" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.4"/>
+          <circle cx="180" cy="210" r="24" fill="none" stroke="#fb7185" stroke-width="2" opacity="0.5"/>
+          <circle cx="180" cy="210" r="10" fill="none" stroke="#fb7185" stroke-width="1.5" opacity="0.3"/>
+          <rect x="240" y="190" width="80" height="40" rx="6" fill="url(#g2)" stroke="#253b55" stroke-width="1"/>
+          <path d="M250 210h60M250 218h40" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+          <path d="M40 280h320" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="4 4"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- 主内容区 - 单栏纵向流 -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- 板块1: 主题领域概览 -->
+      <section class="content-section" id="overview">
+        <div class="section-header">
+          <h2>秘密研究所题材概览</h2>
+        </div>
+        <div class="overview-text">
+          <p><strong>秘密研究所</strong>类作品通常围绕一个隐藏于常规社会之下的科研机构展开，核心看点是“受限空间内的信息博弈”。常见方向包括：<strong>封闭实验室解谜</strong>——角色在断联的研究所内寻找出口与真相；<strong>实验体档案追查</strong>——通过编号档案逐步拼凑实验目的；<strong>内部派系对抗</strong>——安保、科研、外联三方立场不一导致的连锁冲突。当前可关注的具体条目有《秘密研究所》正剧两季共 18 集、衍生短剧《档案室 7 号》6 集、幕后纪录片《建造秘密研究所》3 集，以及原著小说《深层隔离》的有声书版本。</p>
+          <p>从观众消费路径来看，多数人是被“高概念设定”吸引进入，再通过<strong>分集剧情解析</strong>和<strong>角色关系图</strong>维持追看。与普通悬疑剧不同，这类题材对“规则自洽性”要求更高：每一集抛出的新规则需要在后续剧情中经得起推敲。近期社区讨论焦点集中在第二季第 3 集“氧气配额”规则的漏洞与第 4 集“镜像走廊”的空间逻辑，<strong>《秘密研究所》第二季</strong>的评分从开分 7.8 一路升至 8.4，靠的正是对前期伏笔的密集回收。</p>
+        </div>
+      </section>
+
+      <!-- 板块2: 精选内容推荐 -->
+      <section class="content-section" id="featured">
+        <div class="section-header">
+          <h2>密室悬疑精选条目</h2>
+          <a href="/#categories" class="section-link">按分类筛选 →</a>
+        </div>
+        <div class="card-grid" id="cardGrid">
+          <div class="card" data-search="秘密研究所 第二季 正剧 悬疑科幻">
+            <img class="card-img" src="https://picsum.photos/seed/mimi-s2-cover/400/300" alt="秘密研究所第二季剧集封面" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag tag-type">正剧</span>
+                <span class="tag tag-genre">悬疑科幻</span>
+                <span class="tag tag-mood">密室解谜</span>
+              </div>
+              <h3 class="card-title"><a href="/#featured">秘密研究所 第二季</a></h3>
+              <p class="card-desc">第二季将场景扩展至地下三层，新增“氧气配额”与“镜像走廊”两套规则体系，前六集埋下的编号线索在第 4 集集中回收，适合喜欢逻辑推演的观众逐帧分析。</p>
+              <div class="card-meta">
+                <span class="meta-hot"><svg viewBox="0 0 16 16"><path d="M8 1C5 5 3 7 3 10a5 5 0 0010 0c0-3-2-5-5-9z"/></svg> 9.2 万</span>
+                <span class="meta-score">8.4 分</span>
+                <span>更新至第 4 集</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-search="档案室7号 衍生短剧 解谜">
+            <img class="card-img" src="https://picsum.photos/seed/dangan7-cover/400/300" alt="档案室7号短剧封面" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag tag-type">衍生短剧</span>
+                <span class="tag tag-genre">档案追查</span>
+                <span class="tag tag-rose">时间线补完</span>
+              </div>
+              <h3 class="card-title"><a href="/#featured">档案室 7 号</a></h3>
+              <p class="card-desc">每集 12 分钟，以研究所档案管理员视角补完正剧未展开的编号实验记录，第 3 集“编号 044 的两次回收”解释了正剧第一季的未解画面，适合看完正剧后回头补细节。</p>
+              <div class="card-meta">
+                <span class="meta-hot"><svg viewBox="0 0 16 16"><path d="M8 1C5 5 3 7 3 10a5 5 0 0010 0c0-3-2-5-5-9z"/></svg> 4.7 万</span>
+                <span class="meta-score">8.1 分</span>
+                <span>全 6 集已上线</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-search="建造秘密研究所 幕后纪录片">
+            <img class="card-img" src="https://picsum.photos/seed/zaoju-doc/400/300" alt="建造秘密研究所幕后纪录片封面" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag tag-type">纪录片</span>
+                <span class="tag tag-genre">幕后制作</span>
+                <span class="tag tag-mood">场景设计</span>
+              </div>
+              <h3 class="card-title"><a href="/#featured">建造秘密研究所</a></h3>
+              <p class="card-desc">三集幕后纪录片，分别聚焦地下场景搭建、规则道具设计与灯光氛围控制。第二集展示了“氧气配额”面板的实体操作逻辑，对理解正剧中的规则提示画面很有帮助。</p>
+              <div class="card-meta">
+                <span class="meta-hot"><svg viewBox="0 0 16 16"><path d="M8 1C5 5 3 7 3 10a5 5 0 0010 0c0-3-2-5-5-9z"/></svg> 2.1 万</span>
+                <span class="meta-score">8.7 分</span>
+                <span>全 3 集</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-search="深层隔离 原著小说 有声书">
+            <img class="card-img" src="https://picsum.photos/seed/shenceng-novel/400/300" alt="深层隔离原著小说封面" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag tag-type">原著小说</span>
+                <span class="tag tag-genre">科幻悬疑</span>
+                <span class="tag tag-mood">有声书</span>
+              </div>
+              <h3 class="card-title"><a href="/#featured">深层隔离</a></h3>
+              <p class="card-desc">剧集改编的原著小说，有声书版本由 12 位配音演员分角色演绎，完整保留了正剧中因时长删减的“观察者协议”章节，适合想补齐世界观设定的深度观众。</p>
+              <div class="card-meta">
+                <span class="meta-hot"><svg viewBox="0 0 16 16"><path d="M8 1C5 5 3 7 3 10a5 5 0 0010 0c0-3-2-5-5-9z"/></svg> 3.5 万</span>
+                <span class="meta-score">9.0 分</span>
+                <span>共 42 章</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-search="编号044 角色档案 实验体">
+            <img class="card-img" src="https://picsum.photos/seed/044-dangan/400/300" alt="编号044角色档案封面" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag tag-type">角色档案</span>
+                <span class="tag tag-genre">实验体</span>
+                <span class="tag tag-rose">关键人物</span>
+              </div>
+              <h3 class="card-title"><a href="/#featured">编号 044 档案</a></h3>
+              <p class="card-desc">第二季新登场的关键实验体，档案显示其参与过三次“记忆覆写”实验，与主角在镜像走廊中的对话暗藏了第一季结尾彩蛋的解读线索，是当前社区解析帖最集中的条目。</p>
+              <div class="card-meta">
+                <span class="meta-hot"><svg viewBox="0 0 16 16"><path d="M8 1C5 5 3 7 3 10a5 5 0 0010 0c0-3-2-5-5-9z"/></svg> 6.8 万</span>
+                <span class="meta-score">—</span>
+                <span>11 月 5 日更新</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-search="观察者协议 规则解析 设定">
+            <img class="card-img" src="https://picsum.photos/seed/guancha-xieyi/400/300" alt="观察者协议规则解析封面" width="400" height="300" loading="lazy">
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag tag-type">设定解析</span>
+                <span class="tag tag-genre">规则体系</span>
+                <span class="tag tag-mood">文本细读</span>
+              </div>
+              <h3 class="card-title"><a href="/#featured">观察者协议</a></h3>
+              <p class="card-desc">正剧中最核心的规则文件，共 7 条款项。解析聚焦第 4 条“观察者不得干预实验进程”与第 6 条“例外条款触发条件”之间的矛盾，这正是第二季第 4 集冲突的根源。</p>
+              <div class="card-meta">
+                <span class="meta-hot"><svg viewBox="0 0 16 16"><path d="M8 1C5 5 3 7 3 10a5 5 0 0010 0c0-3-2-5-5-9z"/></svg> 5.3 万</span>
+                <span class="meta-score">—</span>
+                <span>11 月 7 日发布</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search-empty" id="searchEmpty">没有找到匹配的条目，试试「密室」「档案」或「第二季」。</div>
+      </section>
+
+      <!-- 板块3: 最新更新 -->
+      <section class="content-section" id="updates">
+        <div class="section-header">
+          <h2>最新更新与动态</h2>
+          <span class="section-link">截至 2026-11-08</span>
+        </div>
+        <div class="update-list">
+          <div class="update-item">
+            <span class="update-time">今天 09:30</span>
+            <div class="update-content">
+              <div class="update-title"><a href="/#featured">秘密研究所 第二季</a></div>
+              <div class="update-desc">第 4 集“镜像走廊”已上线，正片时长 52 分钟，片尾追加 40 秒档案室彩蛋。</div>
+            </div>
+            <span class="update-badge badge-new">NEW</span>
+          </div>
+          <div class="update-item">
+            <span class="update-time">今天 08:10</span>
+            <div class="update-content">
+              <div class="update-title"><a href="/#featured">观察者协议</a> 文本解析</div>
+              <div class="update-desc">第 6 条例外条款的触发条件被重新解读，与第 4 集结尾的监控画面形成互文。</div>
+            </div>
+            <span class="update-badge badge-hot">HOT</span>
+          </div>
+          <div class="update-item">
+            <span class="update-time">昨天 21:10</span>
+            <div class="update-content">
+              <div class="update-title"><a href="/#featured">档案室 7 号</a></div>
+              <div class="update-desc">第 6 集“编号 044 的第二次回收”上线，解释了正剧第一季第 8 集消失的 3 分钟画面。</div>
+            </div>
+            <span class="update-badge badge-new">NEW</span>
+          </div>
+          <div class="update-item">
+            <span class="update-time">昨天 16:45</span>
+            <div class="update-content">
+              <div class="update-title"><a href="/#comments">社区讨论焦点</a></div>
+              <div class="update-desc">“氧气配额”规则中每人每分钟消耗量是否包含静止状态，引发 200+ 条推演讨论。</div>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-time">11 月 6 日</span>
+            <div class="update-content">
+              <div class="update-title"><a href="/#featured">建造秘密研究所</a> 第 3 集</div>
+              <div class="update-desc">灯光指导解析“镜像走廊”的色温设计，解释为何冷蓝光会暗示规则切换。</div>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-time">11 月 5 日</span>
+            <div class="update-content">
+              <div class="update-title"><a href="/#featured">编号 044 档案</a> 更新</div>
+              <div class="update-desc">新增“记忆覆写次数”与“异常反应记录”两栏，补完角色行为动机链。</div>
+            </div>
+            <span class="update-badge badge-new">NEW</span>
+          </div>
+          <div class="update-item">
+            <span class="update-time">11 月 3 日</span>
+            <div class="update-content">
+              <div class="update-title"><a href="/#ranking">本周热度榜</a> 刷新</div>
+              <div class="update-desc">《秘密研究所 第二季》重回榜首，档案室 7 号上升两位至第 3。</div>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-time">11 月 1 日</span>
+            <div class="update-content">
+              <div class="update-title"><a href="/#featured">深层隔离</a> 有声书</div>
+              <div class="update-desc">第 38—42 章上线，包含“观察者协议”完整附录与作者后记。</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 板块4: 分类入口 -->
+      <section class="content-section" id="categories">
+        <div class="section-header">
+          <h2>按类型查找条目</h2>
+        </div>
+        <div class="category-grid">
+          <a href="/#featured" class="category-item">
+            <span class="category-icon">🔬</span>
+            <span class="category-name">正剧</span>
+            <span class="category-count">18 集</span>
+          </a>
+          <a href="/#featured" class="category-item">
+            <span class="category-icon">📁</span>
+            <span class="category-name">衍生短剧</span>
+            <span class="category-count">6 集</span>
+          </a>
+          <a href="/#featured" class="category-item">
+            <span class="category-icon">🎬</span>
+            <span class="category-name">幕后花絮</span>
+            <span class="category-count">3 集</span>
+          </a>
+          <a href="/#featured" class="category-item">
+            <span class="category-icon">📖</span>
+            <span class="category-name">原著小说</span>
+            <span class="category-count">42 章</span>
+          </a>
+          <a href="/#featured" class="category-item">
+            <span class="category-icon">🧩</span>
+            <span class="category-name">规则解析</span>
+            <span class="category-count">7 篇</span>
+          </a>
+          <a href="/#featured" class="category-item">
+            <span class="category-icon">👤</span>
+            <span class="category-name">角色档案</span>
+            <span class="category-count">12 人</span>
+          </a>
+          <a href="/#guide" class="category-item">
+            <span class="category-icon">🗺️</span>
+            <span class="category-name">观看顺序</span>
+            <span class="category-count">指南</span>
+          </a>
+          <a href="/#news" class="category-item">
+            <span class="category-icon">📰</span>
+            <span class="category-name">相关资讯</span>
+            <span class="category-count">6 条</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- 板块5: 深度解析 -->
+      <section class="content-section" id="deep-dive">
+        <div class="section-header">
+          <h2>秘密研究所规则体系与叙事结构</h2>
+        </div>
+        <div class="deep-dive">
+          <h3>“氧气配额”规则为什么是第二季的叙事支点</h3>
+          <p>第二季引入的<strong>氧气配额</strong>规则表面上是一个生存限制，实际上承担了时间压力与角色优先级排序的双重功能。每集开头屏幕上出现的剩余氧气数值，与角色在走廊中的移动速度、对话时长形成精确对应。观众可以通过倒推消耗量来判断某个角色是否在说谎——例如第 3 集中安保主管声称自己“在控制室待了 20 分钟”，但按配额面板的消耗速率倒算，实际停留时间不超过 14 分钟。这种可验证的规则细节，让<strong>《秘密研究所》第二季</strong>在解谜爱好者群体中获得了“值得逐帧看”的评价。</p>
+
+          <h3>镜像走廊：空间规则与信息不对称</h3>
+          <p>第 4 集重点展示的<strong>镜像走廊</strong>是研究所地下三层的特殊通道，两侧墙面为单向观察玻璃，走廊中的对话会被随机记录并延迟播放。这一规则带来了两个后果：一是角色无法确认自己说的话是否被记录，二是延迟播放的片段可以被其他人听到。编剧利用这个机制制造了“同一句话在不同时间点被不同人听到”的信息错位，第 4 集结尾的冲突正是源于一段被延迟 8 分钟播放的对话。</p>
+          <ul>
+            <li><strong>观察者协议第 4 条</strong>：观察者不得干预实验进程——但镜像走廊中的记录行为本身是否构成“干预”，目前社区存在两种解读。</li>
+            <li><strong>编号 044</strong>的档案显示其记忆覆写实验与镜像走廊的建造时间重合，暗示角色与空间之间存在因果关联。</li>
+            <li><strong>氧气配额面板</strong>的数值精度为 0.1 升，但第 3 集出现过一次显示为“--”的异常状态，该画面在第二季片头中出现了两次。</li>
+          </ul>
+
+          <h3>衍生短剧如何补完正剧的时间线</h3>
+          <p><strong>档案室 7 号</strong>每集只讲一份档案，但六集连起来看，恰好覆盖了正剧第一季到第二季之间的 14 个月空白期。其中第 3 集和第 6 集涉及同一个实验体编号，第 3 集展示的是实验初始记录，第 6 集展示的是回收记录，中间缺失的部分需要对照正剧第一季第 8 集的闪回画面才能补全。对于想彻底理清时间线的观众，建议观看顺序为：正剧第一季第 8 集 → 档案室 7 号第 3 集 → 正剧第二季第 1 集 → 档案室 7 号第 6 集。</p>
+
+          <h3>评分与热度变化背后的内容因素</h3>
+          <p>第二季开分 7.8，第 4 集上线后升至 8.4，核心原因是前四集对第一季遗留的七个伏笔回收了五个，且回收方式均有前文可查证的依据。具体来说：第一季第 2 集的编号 019 在第二季第 1 集被重新提及；第一季第 6 集的“走廊灯闪三次”在第二季第 3 集被证实是氧气切换信号；第一季结尾的未解画面在档案室 7 号第 6 集中得到解释。这种“每集都有可验证的回收”的节奏，是评分持续走高的直接原因。</p>
+        </div>
+      </section>
+
+      <!-- 板块6: 体验指南 -->
+      <section class="content-section" id="guide">
+        <div class="section-header">
+          <h2>观看顺序与判断指南</h2>
+        </div>
+        <div class="guide-steps">
+          <div class="guide-step">
+            <span class="step-num">1</span>
+            <div class="step-content">
+              <h3>先看正剧第一季，建立规则基线</h3>
+              <p>第一季共 10 集，重点交代研究所的基本空间布局与观察者协议的前 5 条款项。第 1—3 集节奏较慢，但第 4 集开始进入规则冲突密集区。建议至少看完第 6 集再决定是否继续，因为第 6 集是第一个大规模伏笔回收点。</p>
+            </div>
+          </div>
+          <div class="guide-step">
+            <span class="step-num">2</span>
+            <div class="step-content">
+              <h3>用衍生短剧补完空白期，再进入第二季</h3>
+              <p>档案室 7 号共 6 集，每集 12 分钟，总时长约 72 分钟。建议在看完第一季后、第二季前观看，尤其是第 3 集和第 6 集，它们解释了第一季结尾到第二季开场之间的关键事件。如果时间有限，至少看第 6 集。</p>
+            </div>
+          </div>
+          <div class="guide-step">
+            <span class="step-num">3</span>
+            <div class="step-content">
+              <h3>第二季按集追看，配合规则解析同步阅读</h3>
+              <p>第二季目前更新至第 4 集，每集包含至少两个可独立验证的规则细节。建议每看完一集，对照当集的“观察者协议”条款与氧气配额数值进行复盘。社区解析帖通常在上线后 2 小时内发布，可作为交叉验证的参考。</p>
+            </div>
+          </div>
+          <div class="guide-step">
+            <span class="step-num">4</span>
+            <div class="step-content">
+              <h3>判断一个条目是否值得投入时间的三个信号</h3>
+              <p>第一，看该条目是否包含可查证的规则细节（而非纯粹氛围营造）；第二，看社区讨论中是否有“第 X 集回收了第 Y 集伏笔”这类具体反馈；第三，看衍生内容（档案、幕后）是否与正剧形成互文。满足其中两条以上，通常值得完整观看。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 板块7: FAQ -->
+      <section class="content-section" id="faq">
+        <div class="section-header">
+          <h2>常见问题</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>秘密研究所第二季一般多久更新一集？</summary>
+            <div class="faq-answer">第二季目前采用周更模式，每周五上线一集，每集正片时长在 48—55 分钟之间。第 4 集于 2026 年 11 月 8 日上线，按此节奏第 5 集预计在 11 月 15 日更新。衍生短剧档案室 7 号则是一次性放出全 6 集。</div>
+          </details>
+          <details class="faq-item">
+            <summary>秘密研究所和档案室 7 号有什么区别？</summary>
+            <div class="faq-answer">秘密研究所是主线正剧，每集 50 分钟左右，围绕研究所内的核心冲突展开；档案室 7 号是衍生短剧，每集 12 分钟，以档案管理员视角补完正剧未展开的实验记录与时间线空白。两者共用同一世界观，但叙事焦点不同：正剧重当下冲突，短剧重背景补完。</div>
+          </details>
+          <details class="faq-item">
+            <summary>第一次接触这个系列，从哪一集开始看比较好？</summary>
+            <div class="faq-answer">建议从正剧第一季第 1 集开始，按顺序看到第 6 集，这是建立基本规则认知的最短路径。如果时间有限，也可以先看第二季第 1 集试水——第二季前两集对第一季的关键设定做了简要回顾，但会损失部分伏笔回收的乐趣。</div>
+          </details>
+          <details class="faq-item">
+            <summary>秘密研究所的“观察者协议”具体有哪些条款？</summary>
+            <div class="faq-answer">正剧中完整展示的观察者协议共 7 条，核心条款包括：第 1 条“观察者身份不得公开”、第 3 条“实验体编号不得跨区调用”、第 4 条“观察者不得干预实验进程”、第 6 条“例外条款仅在氧气配额低于 15% 时触发”。第 2、5、7 条在正剧中仅以局部文字出现，完整版本收录于原著小说深层隔离的附录。</div>
+          </details>
+          <details class="faq-item">
+            <summary>这类密室解谜剧的评判标准通常是什么？</summary>
+            <div class="faq-answer">主要看三个维度：规则自洽性（设定的规则是否在后续剧情中保持一致）、伏笔回收密度（前期埋下的线索有多少在合理时间内得到解释）、信息不对称的利用效率（角色之间的信息差是否推动了有效冲突）。秘密研究所第二季在规则自洽性上表现突出，氧气配额与镜像走廊两套规则均有明确的数值与空间逻辑可验证。</div>
+          </details>
+          <details class="faq-item">
+            <summary>秘密研究所第二季第 4 集的镜像走廊彩蛋是什么意思？</summary>
+            <div class="faq-answer">第 4 集片尾 40 秒的档案室画面中，出现了编号 044 的第二次记忆覆写记录，时间戳显示为第一季第 8 集的同一时间。这意味着编号 044 在第一季中段就已经与主线产生关联，而第二季第 4 集才正式揭示。该彩蛋与档案室 7 号第 6 集的内容形成直接对应。</div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 板块8: 用户评论 -->
+      <section class="content-section" id="comments">
+        <div class="section-header">
+          <h2>观众讨论</h2>
+        </div>
+        <div class="comment-grid">
+          <div class="comment-card">
+            <div class="comment-header">
+              <div class="comment-avatar">深</div>
+              <span class="comment-user">深海鱼罐头</span>
+            </div>
+            <div class="comment-text">第 4 集镜像走廊那段对话的延迟播放设计太妙了，倒回去看了三遍才理清谁先说了什么。</div>
+            <div class="comment-target">评论《秘密研究所 第二季》第 4 集</div>
+          </div>
+          <div class="comment-card">
+            <div class="comment-header">
+              <div class="comment-avatar">档</div>
+              <span class="comment-user">档案室常驻</span>
+            </div>
+            <div class="comment-text">档案室 7 号第 6 集把第一季第 8 集那个消失的 3 分钟补上了，虽然补完方式有点取巧，但逻辑上说得通。</div>
+            <div class="comment-target">评论《档案室 7 号》第 6 集</div>
+          </div>
+          <div class="comment-card">
+            <div class="comment-header">
+              <div class="comment-avatar">氧</div>
+              <span class="comment-user">氧气配额不足</span>
+            </div>
+            <div class="comment-text">按面板消耗速率算了一下，第 3 集安保主管确实在时间上说了谎，这种能自己动手验算的细节很加分。</div>
+            <div class="comment-target">评论《秘密研究所 第二季》第 3 集</div>
+          </div>
+          <div class="comment-card">
+            <div class="comment-header">
+              <div class="comment-avatar">观</div>
+              <span class="comment-user">观察者偏差</span>
+            </div>
+            <div class="comment-text">观察者协议第 4 条和第 6 条之间的矛盾，我觉得编剧是故意留的，后面应该会有角色利用这个漏洞。</div>
+            <div class="comment-target">评论《观察者协议》解析</div>
+          </div>
+          <div class="comment-card">
+            <div class="comment-header">
+              <div class="comment-avatar">灯</div>
+              <span class="comment-user">走廊灯闪三次</span>
+            </div>
+            <div class="comment-text">第一季第 6 集那个灯闪三次原来真的是氧气切换信号，当时弹幕全在猜是恐怖桥段，现在回头看全是伏笔。</div>
+            <div class="comment-target">评论《秘密研究所 第一季》第 6 集</div>
+          </div>
+          <div class="comment-card">
+            <div class="comment-header">
+              <div class="comment-avatar">有</div>
+              <span class="comment-user">有声书循环</span>
+            </div>
+            <div class="comment-text">深层隔离有声书第 38 章开始信息量暴增，建议先听有声书再回头看第二季，很多设定一下就通了。</div>
+            <div class="comment-target">评论《深层隔离》有声书</div>
+          </div>
+          <div class="comment-card">
+            <div class="comment-header">
+              <div class="comment-avatar">镜</div>
+              <span class="comment-user">镜像走廊迷路</span>
+            </div>
+            <div class="comment-text">第二季前两集节奏偏慢，第 3 集开始才进入状态，新观众别被开头劝退。</div>
+            <div class="comment-target">评论《秘密研究所 第二季》第 1—2 集</div>
+          </div>
+          <div class="comment-card">
+            <div class="comment-header">
+              <div class="comment-avatar">幕</div>
+              <span class="comment-user">幕后花絮党</span>
+            </div>
+            <div class="comment-text">建造秘密研究所第 3 集讲灯光色温的那段很实用，现在看正剧会特别注意蓝色氛围灯出现的时机。</div>
+            <div class="comment-target">评论《建造秘密研究所》第 3 集</div>
+          </div>
+          <div class="comment-card">
+            <div class="comment-header">
+              <div class="comment-avatar">编</div>
+              <span class="comment-user">编号019</span>
+            </div>
+            <div class="comment-text">第一季第 2 集提到的编号 019 在第二季第 1 集又出现了，但档案里写的是“已回收”，后面肯定还有戏。</div>
+            <div class="comment-target">评论《秘密研究所 第二季》第 1 集</div>
+          </div>
+          <div class="comment-card">
+            <div class="comment-header">
+              <div class="comment-avatar">时</div>
+              <span class="comment-user">时间线考据</span>
+            </div>
+            <div class="comment-text">整理了一下：正剧第一季第 8 集 → 档案室 7 号第 3 集 → 正剧第二季第 1 集 → 档案室 7 号第 6 集，按这个顺序看确实顺畅很多。</div>
+            <div class="comment-target">评论观看顺序指南</div>
+          </div>
+          <div class="comment-card">
+            <div class="comment-header">
+              <div class="comment-avatar">评</div>
+              <span class="comment-user">评分观察员</span>
+            </div>
+            <div class="comment-text">第二季从 7.8 涨到 8.4 不是没道理的，前四集回收的伏笔密度比第一季全季还高。</div>
+            <div class="comment-target">评论《秘密研究所 第二季》整体</div>
+          </div>
+          <div class="comment-card">
+            <div class="comment-header">
+              <div class="comment-avatar">原</div>
+              <span class="comment-user">原著补完计划</span>
+            </div>
+            <div class="comment-text">有声书里“观察者协议”附录比正剧展示的完整得多，第 7 条其实暗示了研究所的上级机构，正剧还没拍到。</div>
+            <div class="comment-target">评论《深层隔离》原著小说</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 板块9: 相关资讯 -->
+      <section class="content-section" id="news">
+        <div class="section-header">
+          <h2>相关资讯</h2>
+        </div>
+        <div class="news-list">
+          <div class="news-item">
+            <img class="news-thumb" src="https://picsum.photos/seed/news-s2e4/600/400" alt="秘密研究所第二季第4集上线资讯配图" width="600" height="400" loading="lazy">
+            <div class="news-body">
+              <div class="news-date">2026-11-08</div>
+              <div class="news-title"><a href="/#featured">秘密研究所第二季第 4 集“镜像走廊”上线，片尾追加档案室彩蛋</a></div>
+              <div class="news-summary">第 4 集正片 52 分钟，片尾 40 秒档案室画面中出现了编号 044 的第二次记忆覆写记录，时间戳与第一季第 8 集重合。</div>
+            </div>
+          </div>
+          <div class="news-item">
+            <img class="news-thumb" src="https://picsum.photos/seed/news-dangan7/600/400" alt="档案室7号全6集上线资讯配图" width="600" height="400" loading="lazy">
+            <div class="news-body">
+              <div class="news-date">2026-11-07</div>
+              <div class="news-title"><a href="/#featured">档案室 7 号全 6 集上线，第 6 集解释第一季消失画面</a></div>
+              <div class="news-summary">衍生短剧一次性放出全 6 集，第 6 集“编号 044 的第二次回收”补完了正剧第一季第 8 集中缺失的 3 分钟内容。</div>
+            </div>
+          </div>
+          <div class="news-item">
+            <img class="news-thumb" src="https://picsum.photos/seed/news-guize/600/400" alt="观察者协议规则讨论资讯配图" width="600" height="400" loading="lazy">
+            <div class="news-body">
+              <div class="news-date">2026-11-06</div>
+              <div class="news-title"><a href="/#deep-dive">观察者协议第 6 条引发社区推演，例外条款触发条件成讨论焦点</a></div>
+              <div class="news-summary">第 4 集结尾监控画面中氧气配额读数低于 15%，观众围绕“例外条款是否在此刻触发”展开 200 多条时间线推演。</div>
+            </div>
+          </div>
+          <div class="news-item">
+            <img class="news-thumb" src="https://picsum.photos/seed/news-paiming/600/400" alt="本周热度榜刷新资讯配图" width="600" height="400" loading="lazy">
+            <div class="news-body">
+              <div class="news-date">2026-11-03</div>
+              <div class="news-title"><a href="/#ranking">本周热度榜刷新：秘密研究所第二季重回榜首</a></div>
+              <div class="news-summary">第二季凭借第 3 集“氧气配额”规则细节的密集讨论，热度反超同期新上线的两部悬疑剧，档案室 7 号上升至第 3 位。</div>
+            </div>
+          </div>
+          <div class="news-item">
+            <img class="news-thumb" src="https://picsum.photos/seed/news-yousheng/600/400" alt="深层隔离有声书更新资讯配图" width="600" height="400" loading="lazy">
+            <div class="news-body">
+              <div class="news-date">2026-11-01</div>
+              <div class="news-title"><a href="/#featured">深层隔离有声书第 38—42 章上线，收录观察者协议完整附录</a></div>
+              <div class="news-summary">最后五章包含正剧中未完整展示的观察者协议第 2、5、7 条款项，以及作者关于研究所上级机构的后记说明。</div>
+            </div>
+          </div>
+          <div class="news-item">
+            <img class="news-thumb" src="https://picsum.photos/seed/news-muhou/600/400" alt="建造秘密研究所幕后纪录片资讯配图" width="600" height="400" loading="lazy">
+            <div class="news-body">
+              <div class="news-date">2026-10-30</div>
+              <div class="news-title"><a href="/#featured">建造秘密研究所第 3 集上线，解析镜像走廊灯光设计</a></div>
+              <div class="news-summary">灯光指导解释冷蓝光与规则切换的对应关系，并展示了氧气配额面板的实体操作界面设计过程。</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 板块10: 相关推荐 -->
+      <section class="content-section" id="related">
+        <div class="section-header">
+          <h2>延伸方向与关联条目</h2>
+        </div>
+        <div class="related-grid">
+          <a href="/#featured" class="related-tag">封闭空间解谜剧</a>
+          <a href="/#featured" class="related-tag">实验体档案题材</a>
+          <a href="/#featured" class="related-tag">规则怪谈类作品</a>
+          <a href="/#featured" class="related-tag">时间线补完短剧</a>
+          <a href="/#featured" class="related-tag">幕后制作纪录片</a>
+          <a href="/#featured" class="related-tag">原著小说与有声书</a>
+          <a href="/#featured" class="related-tag">编号 044 角色解析</a>
+          <a href="/#guide" class="related-tag">多季观看顺序整理</a>
+        </div>
+      </section>
+
+      <!-- 板块11: 热门榜单 -->
+      <section class="content-section" id="ranking">
+        <div class="section-header">
+          <h2>本周热门榜单</h2>
+          <span class="section-link">截至 2026-11-08</span>
+        </div>
+        <div class="rank-list">
+          <div class="rank-item">
+            <span class="rank-num top1">1</span>
+            <div class="rank-info">
+              <div class="rank-title"><a href="/#featured">秘密研究所 第二季</a></div>
+              <div class="rank-meta">悬疑科幻 · 更新至第 4 集</div>
+            </div>
+            <span class="rank-score">8.4</span>
+          </div>
+          <div class="rank-item">
+            <span class="rank-num top2">2</span>
+            <div class="rank-info">
+              <div class="rank-title"><a href="/#featured">深层隔离 有声书</a></div>
+              <div class="rank-meta">原著小说 · 全 42 章</div>
+            </div>
+            <span class="rank-score">9.0</span>
+          </div>
+          <div class="rank-item">
+            <span class="rank-num top3">3</span>
+            <div class="rank-info">
+              <div class="rank-title"><a href="/#featured">档案室 7 号</a></div>
+              <div class="rank-meta">衍生短剧 · 全 6 集</div>
+            </div>
+            <span class="rank-score">8.1</span>
+          </div>
+          <div class="rank-item">
+            <span class="rank-num">4</span>
+            <div class="rank-info">
+              <div class="rank-title"><a href="/#featured">建造秘密研究所</a></div>
+              <div class="rank-meta">幕后纪录片 · 全 3 集</div>
+            </div>
+            <span class="rank-score">8.7</span>
+          </div>
+          <div class="rank-item">
+            <span class="rank-num">5</span>
+            <div class="rank-info">
+              <div class="rank-title"><a href="/#featured">编号 044 档案</a></div>
+              <div class="rank-meta">角色档案 · 11 月 5 日更新</div>
+            </div>
+            <span class="rank-score">—</span>
+          </div>
+          <div class="rank-item">
+            <span class="rank-num">6</span>
+            <div class="rank-info">
+              <div class="rank-title"><a href="/#featured">观察者协议 文本解析</a></div>
+              <div class="rank-meta">设定解析 · 11 月 7 日发布</div>
+            </div>
+            <span class="rank-score">—</span>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- 页尾 -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="brand-text">秘密研究所<span>在线观看免费</span></span>
+          <p class="footer-tagline">聚合悬疑科幻剧《秘密研究所》系列的分集解析、角色档案、幕后花絮与同类作品推荐，帮助观众理清规则体系与观看顺序。</p>
+        </div>
+        <div class="footer-col">
+          <h4>内容导航</h4>
+          <ul>
+            <li><a href="/#overview">题材概览</a></li>
+            <li><a href="/#featured">精选推荐</a></li>
+            <li><a href="/#updates">最新更新</a></li>
+            <li><a href="/#categories">分类入口</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>深度内容</h4>
+          <ul>
+            <li><a href="/#deep-dive">规则解析</a></li>
+            <li><a href="/#guide">观看指南</a></li>
+            <li><a href="/#faq">常见问题</a></li>
+            <li><a href="/#ranking">热门榜单</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>社区与资讯</h4>
+          <ul>
+            <li><a href="/#comments">用户评论</a></li>
+            <li><a href="/#news">相关资讯</a></li>
+            <li><a href="/#related">延伸推荐</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 秘密研究所在线观看免费 · 内容聚合展示页</span>
+        <span>部分内容为示例数据，仅用于展示页面结构</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      'use strict';
+
+      const searchInput = document.getElementById('searchInput');
+      const searchBtn = document.getElementById('searchBtn');
+      const cardGrid = document.getElementById('cardGrid');
+      const searchEmpty = document.getElementById('searchEmpty');
+      const cards = cardGrid ? Array.from(cardGrid.querySelectorAll('.card')) : [];
+
+      function performSearch() {
+        if (!searchInput || !cardGrid || !searchEmpty) return;
+        const query = searchInput.value.trim().toLowerCase();
+        let visibleCount = 0;
+
+        cards.forEach(function(card) {
+          const searchData = (card.getAttribute('data-search') || '') + ' ' + card.textContent.toLowerCase();
+          if (query === '' || searchData.indexOf(query) !== -1) {
+            card.classList.remove('hidden');
+            visibleCount++;
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+
+        if (visibleCount === 0 && query !== '') {
+          searchEmpty.classList.add('show');
+        } else {
+          searchEmpty.classList.remove('show');
+        }
+      }
+
+      if (searchBtn) {
+        searchBtn.addEventListener('click', performSearch);
+      }
+
+      if (searchInput) {
+        searchInput.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter') {
+            e.preventDefault();
+            performSearch();
+          }
+        });
+        searchInput.addEventListener('input', performSearch);
+      }
+
+      // 锚点滚动偏移由 CSS scroll-padding-top 处理
+    })();
+  </script>
+
+</body>
+            </html>
